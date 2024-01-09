@@ -1,13 +1,21 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #ffebeb60;
   font-family: "Sono", sans-serif;
 }
+
 .heading-container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
+  justify-content: center;
 }
+
+.heading-container h1{
+  margin-top: 11rem;
+}
+
 .holiday-sale {
   margin-bottom: 0;
 }
@@ -18,7 +26,7 @@ body {
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 30vh;
 }
 
 .pricing-plan {
@@ -59,4 +67,5 @@ li {
     flex-direction: column;
     height: 100%;
   }
+
 }
